@@ -9,6 +9,7 @@
 
 <h3>Noutăţi</h3>
 <ul>
+    <li>29-09-10 - Creat pagina pe <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a> si <a href="http://twitter.com/centru_md">twitter</a></li>
 	<li>28-09-10 - Crearea primei pagini cu întrebări/răspunsuri</li>
 	<li>01-09-10 - Crearea unei versiuni initiale a subproiectului "<?php echo $html->link('Secţii de votare',array('controller'=>'home','action'=>'tari'))?></a>"</li>
 </ul>
@@ -28,8 +29,8 @@ Asta inseamna ca tu ai acces la codul sursa a acestui siteului si il poti amelio
 
 
 <h3>Motivatie</h3>
-Am idei care ar putea face viaţa unui internaut moldovean mai uşoară, dar nu am destul timp ca sa fac totul si singur nu-i interesant !<br>
-Plus ca mi-as dori sa cream aici o comunitate independentă si sa putem decide singur cum evoluam.
+Am idei care ar putea face viaţa unui internaut moldovean mai uşoară, dar nu am destul timp ca sa fac totul, impreuna putem reusi.<br>
+Plus ca mi-as dori sa cream aici o comunitate independentă si sa putem decide singuri cum evoluam.
 <br>
 
 <h3>Cine ne sustine</h3>
@@ -37,7 +38,8 @@ Suportul iniţial ne este acordat de comunitatea torrents.md.<br>
 Probabil vom crea o pagina pe retele sociale si prin eforturi comune ne putem promova.<br>
 
 <h3>Comunicare</h3>
-Comunicarea intre membrii comunitatii centru.md se va face prin mail list din cadrul <a href="http://groups.google.com/group/centrumd">google groups</a>, fă join şi trimite un email la centrumd@googlegroups.com
+Comunicarea intre membrii comunitatii centru.md se va face prin mail list din cadrul <a href="http://groups.google.com/group/centrumd">google groups</a>, fă join şi trimite un email la centrumd@googlegroups.com<br>
+Deasemenea exista pagina <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a> si <a href="http://twitter.com/centru_md">twitter</a> pentru a fi la curent.
 
 <h3>Iniţiatorul</h3>
 Eu sunt Nicu Merge Prin Fum. Voi încerca să mă împart cu cunoştinţele mele creind tutorialuri si raspunzind pe mail list. 
