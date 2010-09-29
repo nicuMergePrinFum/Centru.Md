@@ -51,4 +51,4 @@ Proiectul centru.md e disponibil pe <a href="http://github.com/nicuMergePrinFum/
 <h3>Principii şi valori</h3>
 Simplitate in ceea ce cream, simplitate in comunicare si relatii. Ne straduim sa utilizăm <a href="http://ro.wikipedia.org/wiki/Software_liber">software liber</a>. Bine faci, bine (bere,cocacola) găseşti (la offlineuri).<br>
 <br>
-<b>Join the fun ! Vină în centru, contribuie şi învaţă ;-)</b> Ajutorul tău este bine venit.<br>
+<b>Join the fun ! Vină în centru, contribuie şi învaţă ;-)</b> Dacă ai întrebări, nu ezita să le pui pe mail list, voi încerca să răspund.<br>
