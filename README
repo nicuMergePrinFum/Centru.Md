@@ -8,7 +8,8 @@ To make it work.
   |- controllers
   |- views
   |- models
-  |- tmp <- make this writable for www user daemon!
+  |- tmp 	<- make this writable for www user daemon
+  |- webroot 	<- DocumentRoot should be pointed here
   |- ..
 |- cake
   |- libs
