@@ -7,18 +7,18 @@ class HomeController extends AppController {
 		$info = $this->loadC();
 		$this->set('tara_info',$info[$c]);
 		$this->set('tara_name',$c);
-		$this->set('title','Birouri electorale din '. $c);
+		$this->set('title_for_layout','Birouri electorale din '. $c);
 	}
 
 	function tari() {
 		$this->set('c',$this->loadC());
 		$title = "Birourile electorale a Moldovei în diferite ţări";
 		$this->set('title',$title);
-		$this->set('title_page',$title);
+		$this->set('title_for_layout',$title);
 	}
 
 	function index() {
-		$this->set('title','Centru.MD (beta) - Un site liber si deschis ce poate fi ameliorat de tine. Începe acum.');
+		$this->set('title_for_layout','Centru.MD (beta) - Un site liber si deschis ce poate fi ameliorat de tine. Începe acum.');
 	}
 
 	function loadC() {
