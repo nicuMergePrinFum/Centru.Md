@@ -1,3 +1,15 @@
 Carti.Md - invatam si contribuim.
 
-Rename the folder app/config_default to app/config
+To make it work.
+- Rename the folder app/config_default to app/config.
+- Unzip Cakephp 1.3.4, http://github.com/cakephp/cakephp/zipball/1.3.4 and put the cake folder to cake/, the folder structure should be
+
+|- app
+  |- controllers
+  |- views
+  |- models
+  |- tmp <- make this writable for www user daemon!
+  |- ..
+|- cake
+  |- libs
+  |- ..

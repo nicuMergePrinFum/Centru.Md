@@ -21,7 +21,7 @@ Oras: Scrie orice<br>
 Nume:<br>
 Mesaj de contact:<br>
 <br>
-toate mesajele vor fi sterse dupa data referendumului.</br>
+toate mesajele vor fi sterse dupa data alegerilor.</br>
 
 <?php echo $form->create('Book');?>
 <?php echo $form->input('country',array('label'=>__('Titlul cărţii',true))); ?>
