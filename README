@@ -1,16 +1,48 @@
-Carti.Md - invatam si contribuim.
+Centru.Md - invatam si contribuim.
 
-To make it work.
-- Rename the folder app/config_default to app/config.
-- Unzip Cakephp 1.3.4, http://github.com/cakephp/cakephp/zipball/1.3.4 and put the cake folder to cake/, the folder structure should be
+To make it work, in 4 Easy steps.
+1. Copy the folder app/config_default to app/config.
+2. Unzip Cakephp 1.3.4, http://github.com/cakephp/cakephp/zipball/1.3.4 and put the cake folder to cake/, the folder structure should be
 
 |- app
   |- controllers
   |- views
   |- models
-  |- tmp 	<- make this writable for www user daemon
-  |- webroot 	<- DocumentRoot should be pointed here
+  |- tmp 	<- make this writable for www user daemon (3)
+  |- webroot 	<- DocumentRoot should be pointed here (4)
   |- ..
 |- cake
   |- libs
   |- ..
+
+(3) UNIX only. Not needed on Windows.
+3.1 To make a directory writable for all users (www user inclusive), you need to use the chmod command.
+We want to make all directories inside app/tmp writable, so the -R (recursive) will be used.
+You need to run.
+chmod -R a+w app/tmp
+a mean all, +w mean make app/tmp writable for all users.
+[3.2] Another way is to make the owner of the app/tmp the www deamon.
+You need to know the user name of the www deamon. 
+If you use apache, execute: ps -eo user,comm | grep apache or ps aux | grep apache
+The user name should be the first column.
+After you have the user name, with the root rights do chown -R www_user:www_user app/tmp
+
+(4) For apache only.
+For comodity, add to the /etc/hosts "127.0.0.1 centru.local www.centru.local"
+
+<VirtualHost *>
+        ServerAdmin support@centru.local
+        ServerName  www.centru.local
+        ServerAlias centru.local
+
+        # Indexes + Directory Root.
+        DirectoryIndex index.php
+        # Replace ... with full path to the app
+        DocumentRoot .../app/webroot/
+
+        # Logfiles
+        ErrorLog  /var/log/apache2/centru.local_error.log
+        CustomLog /var/log/apache2/centru.local_access.log combined
+</VirtualHost>
+
+Now after do apache2ctl graceful

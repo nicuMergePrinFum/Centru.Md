@@ -1,4 +1,4 @@
-<?php echo $title_page ?>
+<?php echo $title_for_layout ?>
 <br><br>
 <div style="float:left; width:15em;">
 <?php

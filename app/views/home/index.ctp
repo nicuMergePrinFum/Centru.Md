@@ -4,17 +4,19 @@
 	<li>Video tutorial, instalarea tuturor programelor necesare pentru rularea centru.md la voi pe computer. Apache, Php, Mysql</li>
 	<li>Punerea la dispoziţe a unei imagini Linux Ubuntu cu Centru.md preinstalat pentru a economisi timp si a oferi un start rapid.</li>
 	<li>Video tutorial, crearea unui cont pe <a href="https://github.com/">github</a>, utilizarea git pentru a putea contribui.</li>
+    <li>(posibil) Un video de introducere</li>
 </ul>
 
 
 <h3>Noutăţi</h3>
 <ul>
+    <li>29-09-10 - Creat pagina pe <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a> si <a href="http://twitter.com/centru_md">twitter</a></li>
 	<li>28-09-10 - Crearea primei pagini cu întrebări/răspunsuri</li>
 	<li>01-09-10 - Crearea unei versiuni initiale a subproiectului "<?php echo $html->link('Secţii de votare',array('controller'=>'home','action'=>'tari'))?></a>"</li>
 </ul>
 
 <h3>Ce-i asta Centru.md</h3>
-Centru.md e un <a href="http://dexonline.ro/definitie/site">site</a> liber unde fiecare poate vedea codul sursa si contribui pentru a solutiona o problema comuna a moldwebului.<br>
+Centru.md e un <a href="http://dexonline.ro/definitie/site">site</a> liber unde fiecare poate <a href="http://github.com/nicuMergePrinFum/Centru.Md">vedea</a> codul sursa si contribui pentru a solutiona o problema comuna a moldwebului.<br>
 
 <h3>Scopurile principale</h3>
 <ul>
@@ -28,22 +30,20 @@ Asta inseamna ca tu ai acces la codul sursa a acestui siteului si il poti amelio
 
 
 <h3>Motivatie</h3>
-Am idei care ar putea face viaţa unui internaut moldovean mai uşoară, dar nu am destul timp ca sa fac totul si singur nu-i interesant !<br>
-Plus ca mi-as dori sa cream aici o comunitate independentă si sa putem decide singur cum evoluam.
-<br>
+Sunt chestii care s-ar putea face mai bine (<?php echo $html->link('ex.',array('controller'=>'pages','action'=>'display','subproiecte'));?>), prin forte comune putem reusi face lucruri interesante.<br>
 
 <h3>Cine ne sustine</h3>
 Suportul iniţial ne este acordat de comunitatea torrents.md.<br>
 Probabil vom crea o pagina pe retele sociale si prin eforturi comune ne putem promova.<br>
 
 <h3>Comunicare</h3>
-Comunicarea intre membrii comunitatii centru.md se va face prin mail list din cadrul <a href="http://groups.google.com/group/centrumd">google groups</a>, fă join şi trimite un email la centrumd@googlegroups.com
+Comunicarea intre membrii comunitatii centru.md se va face prin mail list din cadrul <a href="http://groups.google.com/group/centrumd">google groups</a>, fă join şi trimite un email la centrumd@googlegroups.com<br>
+Deasemenea exista pagina <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a> si <a href="http://twitter.com/centru_md">twitter</a> pentru a fi la curent.
 
 <h3>Iniţiatorul</h3>
-Eu sunt Nicu Merge Prin Fum. Voi încerca să mă împart cu cunoştinţele mele creind tutorialuri si raspunzind pe mail list. 
-Îs sigur ca printre voi sunt oameni mai destepti ca mine, impreuna putem trece prin mare şi fum da ? ;-)<br>
+Eu sunt Nicu Merge Prin Fum. Voi încerca să mă împart cu cunoştinţele mele creind tutorialuri si raspunzind pe mail list.<br>
+Îs sigur ca printre voi sunt oameni mai destepti ca mine, impreuna putem trece de fum ;o)<br>
 Mi-ar placea sa deleg cit mai multe functii deoarece timp eu am extrem de putin.<br>
-<br>
 
 <h3>Cum fiecare poate contribui</h3>
 Proiectul centru.md e disponibil pe <a href="http://github.com/nicuMergePrinFum/Centru.Md">github</a>, oricine îl poate forkui, dupa ce ati facut schimbari si ati facut push, scrieti pe mail list despre ameliorarile facute si cerere ca modificarile sa ajunga pe centru. Detaliile si exemplele vor urma.
