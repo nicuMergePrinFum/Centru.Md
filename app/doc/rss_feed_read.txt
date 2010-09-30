@@ -1,0 +1,5 @@
+Citim RSS feedul wallului Centru.Md si il afisam pe prima pagina Centru.Md
+
+1. Recuperam RSS linkul a wallului Centru.Md
+2. Instalam libraria simplepie si componentul cakephp care il face ft accesibil. Urmam instructiunea de pe http://github.com/mcurry/simplepie acest component a fost gasit cautind pe google: cakephp rss read
+3. Afisam pe prima pagina Centru.Md feedul
