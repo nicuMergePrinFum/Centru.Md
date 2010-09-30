@@ -1,5 +1,5 @@
-<?php echo $title_for_layout ?>
-<br><br>
+<?php echo $title_for_layout ?>. Sursa informatiei e documentul .doc <a href="http://www.voteaza.md/legislatia/birouri.hotare.doc">de pe voteaza.md</a>.<br>
+<br>
 <div style="float:left; width:15em;">
 <?php
 	$cur_country = 0;

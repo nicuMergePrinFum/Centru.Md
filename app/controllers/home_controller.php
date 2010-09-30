@@ -7,7 +7,7 @@ class HomeController extends AppController {
 		$info = $this->loadC();
 		$this->set('tara_info',$info[$c]);
 		$this->set('tara_name',$c);
-		$this->set('title_for_layout','Secţiile de votare a Moldovei din '. $c);
+		$this->set('title_for_layout','Lista secţiilor de votare a Moldovei din '. $c);
 	}
 
 	function tari() {

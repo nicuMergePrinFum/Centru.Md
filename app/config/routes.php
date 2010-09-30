@@ -31,3 +31,6 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+    Router::connect('/sectii_electorale/tari', array('controller' => 'home', 'action' => 'tari'));
+    Router::connect('/sectii_electorale/*', array('controller' => 'home', 'action' => 'tara'));

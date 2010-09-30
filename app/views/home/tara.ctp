@@ -5,6 +5,9 @@
 </style>
 
 <div style="float:left;margin-left:5px;">
+<h3>
+<?php echo $html->link('Secţii', array('controller'=>'home','action' => 'tari') ) ?>
+ &gt; <?php echo $title_for_layout ?></h3>
 Mergi cu maşina dintr-un oraş fără secţie de votare şi ai locuri libere ?<br>
 Pune un <a href="">anunţ</a> şi mai ea pe cineva din ai noştri la secţie, împreună e mai vesel !</br>
 </div>
