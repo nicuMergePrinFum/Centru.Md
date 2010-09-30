@@ -1,3 +1,12 @@
+<h3>Ultimile posturi de pe pagina <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a></h3>
+<ul>
+<?php foreach($items AS $item) : ?>
+    <li><?php echo date('d-m-y',strtotime($item['date'])), ' - ',
+        $item['content']
+     ?></li>
+<?php endforeach;?>
+</ul>
+
 <h3>Curînd</h3>
 <ul>
 	<li>Video tutorial, instalarea Linux Ubuntu pe VirtualBox (Windows).</li>
@@ -6,7 +15,6 @@
 	<li>Video tutorial, crearea unui cont pe <a href="https://github.com/">github</a>, utilizarea git pentru a putea contribui.</li>
     <li>(posibil) Un video de introducere</li>
 </ul>
-
 
 <h3>Noutăţi</h3>
 <ul>

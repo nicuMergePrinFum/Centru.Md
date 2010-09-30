@@ -2,6 +2,7 @@
 	
 class HomeController extends AppController {
 	var $uses = array();
+    var $components = array('Simplepie');
 
 	function tara($c='') {
 		$info = $this->loadC();
@@ -19,6 +20,9 @@ class HomeController extends AppController {
 
 	function index() {
 		$this->set('title_for_layout','Centru.MD (beta) - Un site liber si deschis ce poate fi ameliorat de tine. Începe acum.');
+        $items = $this->Simplepie->feed('http://www.facebook.com/feeds/page.php?format=atom10&id=163699546976614',
+            array('fields'=>array('date','content'),'length'=>3) );
+        $this->set('items', $items);
 	}
 
 	function loadC() {
