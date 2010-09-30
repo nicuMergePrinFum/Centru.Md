@@ -41,7 +41,7 @@ Comunicarea intre membrii comunitatii centru.md se va face prin mail list din ca
 Deasemenea exista pagina <a href="http://www.facebook.com/pages/CentruMd-site-liber-si-deschis-ce-poate-fi-ameliorat-de-tine/163699546976614?ref=ts">facebook</a> si <a href="http://twitter.com/centru_md">twitter</a> pentru a fi la curent.
 
 <h3>Iniţiatorul</h3>
-Eu sunt Nicu Merge Prin Fum. Voi încerca să mă împart cu cunoştinţele mele creind tutorialuri si raspunzind pe mail list.<br>
+Eu sunt Nicu Merge Prin Fum (nicu.merge.prin.fum@gmail.com - scrieti direct). Voi încerca să mă împart cu cunoştinţele mele creind tutorialuri si raspunzind pe mail list.<br>
 Îs sigur ca printre voi sunt oameni mai destepti ca mine, impreuna putem trece de fum ;o)<br>
 Mi-ar placea sa deleg cit mai multe functii deoarece timp eu am extrem de putin.<br>
 
